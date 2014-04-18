@@ -4,7 +4,7 @@ body {
 }
 
 h2 {
-	margin: 4px auto 12px auto;
+	margin: 8px auto 12px auto;
 	text-align: center;
 	font: bold 64px sans-serif;
 	color: #222;
@@ -16,25 +16,41 @@ input[placeholder] {
 	text-align: center;
 }
 
-.barcode {
-	padding: 10px;
+input {
+	width: 300px;
+}
+
+button {
+	display: inline;
+}
+
+.barcode_box {
+	padding: 15px;
 	font-size: 15px;
 	font-family: Arial, Helvetica;
 	text-align: center;
 	border: 0;
+	min-height: 230px;
+	min-width: 600px;
 }
+
 
 .input_form {
 	display: block;
 	text-align: center;
 }
 
-.input_box {
+#input_box {
+	margin: auto;
+}
+
+#outText {
+	margin: auto;
 }
 
 #container {
 	width: 600px;
-	margin: 1em auto 0 auto;
+	margin: 20px auto 0 auto;
 	background-color: #f8f8f8;
 	border-radius: 10px;
 	border-top: 1px solid #fff;
@@ -42,4 +58,12 @@ input[placeholder] {
 	border-right: 1px solid #222;
 	border-bottom: 3px solid #181818;
 	border-spacing: 
+}
+
+#barcode_img {	
+	margin: auto;
+}
+
+#clickButton {
+	margin: auto;
 }
