@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html>  
       <head>
-            <title>Barcode Generator</title>
+            <title>Barcode Generator</title>            
+	      <link rel="stylesheet" type="text/css" href="style.css">
             <script src="barcode.js"></script>
             <script src="http://code.jquery.com/jquery-latest.js"></script>
-	      <link rel="stylesheet" type="text/css" href="style.css">
       </head>
       <body>
             <div id="container">
                   <h2>Barcode Generator</h2>
                   <form class="input_form">
                         <input type="text" id="input_box" />
-                        <input type="submit" id="click_button" value="Generate" class="btn" />
+                        <input type="submit" id="click_button" value="Generate" />
                   </form>
+
                   <br>
-                  <p id="outText">enter a barcode above</p> 
-                  <div class="barcode_box">
-                        <img id="barcode_img" src="" />
-                  </div>
+                  <p id="outText"></p> 
             </div>
       </body>
 </html>

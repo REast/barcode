@@ -20,10 +20,6 @@ input {
 	width: 300px;
 }
 
-button {
-	display: inline;
-}
-
 .barcode_box {
 	padding: 15px;
 	font-size: 15px;
@@ -40,14 +36,6 @@ button {
 	text-align: center;
 }
 
-#input_box {
-	margin: auto;
-}
-
-#outText {
-	margin: auto;
-}
-
 #container {
 	width: 600px;
 	margin: 20px auto 0 auto;
@@ -58,12 +46,4 @@ button {
 	border-right: 1px solid #222;
 	border-bottom: 3px solid #181818;
 	border-spacing: 
-}
-
-#barcode_img {	
-	margin: auto;
-}
-
-#clickButton {
-	margin: auto;
 }
